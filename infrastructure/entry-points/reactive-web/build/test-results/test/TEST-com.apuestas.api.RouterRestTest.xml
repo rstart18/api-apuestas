@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.apuestas.api.RouterRestTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-11-06T02:13:21" hostname="DESKTOP-60065JL" time="1.224">
+  <properties/>
+  <testcase name="testListenPOSTUseCase()" classname="com.apuestas.api.RouterRestTest" time="1.207"/>
+  <testcase name="testListenGETOtherUseCase()" classname="com.apuestas.api.RouterRestTest" time="0.006"/>
+  <testcase name="testListenGETUseCase()" classname="com.apuestas.api.RouterRestTest" time="0.006"/>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.1)
+
+2025-11-05T21:13:19.699-05:00  INFO 65382 --- [    Test worker] com.apuestas.api.RouterRestTest          : Starting RouterRestTest using Java 21 with PID 65382 (started by dev in /home/dev/projects/api-apuestas/infrastructure/entry-points/reactive-web)
+2025-11-05T21:13:19.704-05:00  INFO 65382 --- [    Test worker] com.apuestas.api.RouterRestTest          : No active profile set, falling back to 1 default profile: "default"
+2025-11-05T21:13:21.564-05:00  INFO 65382 --- [    Test worker] com.apuestas.api.RouterRestTest          : Started RouterRestTest in 2.938 seconds (process running for 8.606)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/home/dev/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.17/e3c251a39dc90badaf71c83427ba46840f219d8d/byte-buddy-agent-1.14.17.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

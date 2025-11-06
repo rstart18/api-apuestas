@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.apuestas.ArchitectureTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-11-05T03:41:32" hostname="DESKTOP-60065JL" time="0.238">
+  <properties/>
+  <testcase name="domainClassesShouldNotBeNamedWithToolNames()" classname="com.apuestas.ArchitectureTest" time="0.099"/>
+  <testcase name="domainClassesShouldNotHaveFieldsNamedWithToolNames()" classname="com.apuestas.ArchitectureTest" time="0.03"/>
+  <testcase name="useCaseFinalFields()" classname="com.apuestas.ArchitectureTest" time="0.006"/>
+  <testcase name="beansShouldOnlyHaveFinalFields()" classname="com.apuestas.ArchitectureTest" time="0.015"/>
+  <testcase name="reactiveFlowsShouldUseAwsAsyncClients()" classname="com.apuestas.ArchitectureTest" time="0.047"/>
+  <testcase name="domainClassesShouldNotBeNamedWithTechSuffixes()" classname="com.apuestas.ArchitectureTest" time="0.003"/>
+  <system-out><![CDATA[22:41:29.127 [Test worker] INFO com.tngtech.archunit.core.PluginLoader -- Detected Java version 21
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
