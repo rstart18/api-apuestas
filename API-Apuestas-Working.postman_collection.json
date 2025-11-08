@@ -1,0 +1,111 @@
+{
+	"info": {
+		"name": "API Apuestas - Working Endpoints",
+		"description": "Colección con los endpoints que funcionan en la API de Apuestas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Crear Apuesta",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"userId\": \"user123\",\n  \"matchId\": \"match456\",\n  \"market\": \"1X2\",\n  \"selection\": \"HOME\",\n  \"amount\": 100.00,\n  \"expectedOdds\": 2.50\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/bets",
+					"protocol": "http",
+					"host": ["localhost"],
+					"port": "8080",
+					"path": ["api", "bets"]
+				}
+			}
+		},
+		{
+			"name": "Crear Apuesta - Over/Under",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"userId\": \"user456\",\n  \"matchId\": \"match456\",\n  \"market\": \"TOTAL_GOALS\",\n  \"selection\": \"OVER_2_5\",\n  \"amount\": 50.00,\n  \"expectedOdds\": 1.85\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/bets",
+					"protocol": "http",
+					"host": ["localhost"],
+					"port": "8080",
+					"path": ["api", "bets"]
+				}
+			}
+		},
+		{
+			"name": "Ver Apuestas Usuario 123",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/users/user123/bets",
+					"protocol": "http",
+					"host": ["localhost"],
+					"port": "8080",
+					"path": ["api", "users", "user123", "bets"]
+				}
+			}
+		},
+		{
+			"name": "Ver Apuestas Usuario 456",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/users/user456/bets",
+					"protocol": "http",
+					"host": ["localhost"],
+					"port": "8080",
+					"path": ["api", "users", "user456", "bets"]
+				}
+			}
+		},
+		{
+			"name": "Stream Cuotas Real Madrid vs Barcelona",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/matches/match456/odds/stream",
+					"protocol": "http",
+					"host": ["localhost"],
+					"port": "8080",
+					"path": ["api", "matches", "match456", "odds", "stream"]
+				}
+			}
+		},
+		{
+			"name": "Stream Cuotas Chelsea vs Arsenal",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/matches/match201/odds/stream",
+					"protocol": "http",
+					"host": ["localhost"],
+					"port": "8080",
+					"path": ["api", "matches", "match201", "odds", "stream"]
+				}
+			}
+		}
+	]
+}
