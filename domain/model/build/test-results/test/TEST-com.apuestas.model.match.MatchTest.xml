@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.apuestas.model.match.MatchTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-11-08T18:20:46" hostname="DESKTOP-60065JL" time="0.009">
+  <properties/>
+  <testcase name="shouldReturnTrueWhenMatchIsLive()" classname="com.apuestas.model.match.MatchTest" time="0.003"/>
+  <testcase name="shouldReturnFalseWhenMatchIsScheduled()" classname="com.apuestas.model.match.MatchTest" time="0.002"/>
+  <testcase name="shouldCreateMatchWithBuilder()" classname="com.apuestas.model.match.MatchTest" time="0.001"/>
+  <testcase name="shouldReturnTrueWhenMatchIsFinished()" classname="com.apuestas.model.match.MatchTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

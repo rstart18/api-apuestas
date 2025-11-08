@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.apuestas.model.bet.BetTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-11-08T18:20:46" hostname="DESKTOP-60065JL" time="0.048">
+  <properties/>
+  <testcase name="shouldCreateBetWithNoArgsConstructor()" classname="com.apuestas.model.bet.BetTest" time="0.036"/>
+  <testcase name="shouldCreateBetWithBuilder()" classname="com.apuestas.model.bet.BetTest" time="0.008"/>
+  <testcase name="shouldSetAndGetProperties()" classname="com.apuestas.model.bet.BetTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.apuestas.usecase.getuserbets.GetUserBetsUseCaseTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-11-08T18:21:07" hostname="DESKTOP-60065JL" time="1.811">
+  <properties/>
+  <testcase name="shouldReturnEmptyWhenUserHasNoBets()" classname="com.apuestas.usecase.getuserbets.GetUserBetsUseCaseTest" time="1.789"/>
+  <testcase name="shouldReturnUserBetsSortedByDate()" classname="com.apuestas.usecase.getuserbets.GetUserBetsUseCaseTest" time="0.019"/>
+  <system-out><![CDATA[Recuperando apuesta: bet2 para usuario: user123
+Recuperando apuesta: bet1 para usuario: user123
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/home/dev/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.17/e3c251a39dc90badaf71c83427ba46840f219d8d/byte-buddy-agent-1.14.17.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
